@@ -1,189 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VitaPet | Inmunidad Premium</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
-
-<style>
-
-body{
-margin:0;
-background:#0b2e2b;
-color:#f4f4f4;
-font-family:'Inter',sans-serif;
-}
-
-h1,h2{
-font-family:'Playfair Display',serif;
-}
-
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.8)),
-url('https://images.unsplash.com/photo-1601758003122-68ec4a7b7a00?q=80&w=1974');
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
-}
-
-.hero h1{
-font-size:58px;
-max-width:800px;
-}
-
-.hero p{
-max-width:600px;
-margin:auto;
-opacity:0.9;
-}
-
-.btn{
-background:#d4af37;
-border:none;
-padding:16px 40px;
-border-radius:50px;
-font-weight:600;
-cursor:pointer;
-transition:0.3s;
-}
-
-.btn:hover{
-transform:scale(1.1);
-}
-
-.section{
-padding:100px 20px;
-text-align:center;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:30px;
-margin-top:50px;
-}
-
-.card{
-background:#123f3c;
-padding:30px;
-border-radius:20px;
-transition:0.4s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-.split{
-display:flex;
-flex-wrap:wrap;
-align-items:center;
-gap:50px;
-padding:100px 20px;
-}
-
-.split img{
-width:100%;
-max-width:500px;
-border-radius:20px;
-}
-
-.product img{
-width:300px;
-margin:30px 0;
-}
-
-footer{
-background:#081f1d;
-padding:40px;
-text-align:center;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaPet - Sistema Inmunológico Inteligente para Mascotas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">VitaPet</a>
+            <nav>
+                <ul>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#ciencia">Ciencia</a></li>
+                    <li><a href="#producto">Producto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-cta-nav">Comprar Ahora</a>
+        </div>
+    </header>
 
-<section class="hero">
-<div>
-<h1>Más vida. Más tiempo. Más momentos.</h1>
-<p>Suplemento inmunológico liofilizado con alta concentración de beta-glucanos para mascotas</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="https://via.placeholder.com/1200x600/1C2B1F/FFFFFF?text=Imagen+Emocional+Perro+y+Gato+Sanos" alt="VitaPet - Sistema Inmunológico Inteligente para Mascotas">
+                <h1>Sistema Inmunológico Inteligente para Mascotas</h1>
+                <p>Suplemento premium de hongos medicinales con respaldo científico.</p>
+                <a href="#beneficios" class="btn-cta">Descubrir VitaPet</a>
+            </div>
+        </div>
+    </section>
 
-<a href="https://mpago.la/TU-LINK" target="_blank">
-<button class="btn">Comprar ahora</button>
-</a>
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Beneficios Clave</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/100/4CAF50/FFFFFF?text=Icono+Defensas" alt="Fortalece el sistema inmune">
+                    <h3>Fortalece el sistema inmune</h3>
+                    <p>Estimula las defensas naturales de tu mascota para combatir enfermedades.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/100/4CAF50/FFFFFF?text=Icono+Inflamacion" alt="Reduce inflamación">
+                    <h3>Reduce inflamación</h3>
+                    <p>Alivia dolores articulares y musculares, mejorando la movilidad.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/100/4CAF50/FFFFFF?text=Icono+Energia" alt="Aumenta energía y vitalidad">
+                    <h3>Aumenta energía y vitalidad</h3>
+                    <p>Mejora el estado de ánimo y la actividad física de tu mascota.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/100/4CAF50/FFFFFF?text=Icono+Proteccion" alt="Protección celular">
+                    <h3>Protección celular</h3>
+                    <p>Protege las células del daño oxidativo, previniendo el envejecimiento prematuro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p>✔ Pago seguro | ✔ Envíos a todo Chile</p>
-</div>
-</section>
+    <section id="ciencia" class="ciencia">
+        <div class="container">
+            <h2>La Ciencia detrás de VitaPet</h2>
+            <p>VitaPet combina la sabiduría de la naturaleza con el respaldo de la ciencia moderna.</p>
+            <div class="mushrooms">
+                <img src="https://via.placeholder.com/300/F2EFE6/1C2B1F?text=Imagen+Hongos+Medicinales" alt="Hongos Medicinales - Reishi, Shiitake, Maitake, Melena de León">
+                <p>Nuestros hongos medicinales (Reishi, Shiitake, Maitake, Melena de León) son ricos en beta-glucanos, compuestos con propiedades inmunomoduladoras y adaptogénicas.</p>
+                <img src="https://via.placeholder.com/200/F2EFE6/1C2B1F?text=Grafico+Beta-glucanos" alt="Gráfico Molecular de Beta-glucanos">
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-<h2>Ciencia que protege su vida</h2>
-<p>Formulado con hongos medicinales de alta pureza y concentración de beta-glucanos.</p>
+    <section id="producto" class="producto">
+        <div class="container">
+            <h2>VitaPet - Tu Aliado para la Salud de tu Mascota</h2>
+            <p>Nuestro suplemento se elabora con extractos de hongos de alta calidad, garantizando la máxima biodisponibilidad y efectividad.</p>
+            <div class="product-showcase">
+                <img src="https://via.placeholder.com/400x400/D4AF37/FFFFFF?text=Mockup+VitaPet" alt="VitaPet - Suplemento Premium de Hongos Medicinales">
+                <div class="ingredients">
+                    <h3>Ingredientes Clave:</h3>
+                    <ul>
+                        <li>Reishi: Refuerza el sistema inmunológico y reduce el estrés.</li>
+                        <li>Shiitake: Aporta energía y vitalidad, y protege las células.</li>
+                        <li>Maitake: Estimula las defensas y combate la inflamación.</li>
+                        <li>Melena de León: Mejora la función cognitiva y la salud nerviosa.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>VitaPet se diferencia de otros suplementos por su formulación a base de extractos de hongos, no polvo, lo que asegura una mayor concentración de compuestos activos y una mejor absorción.</p>
+        </div>
+    </section>
 
-<div class="grid">
-<div class="card"><b>Reishi</b><br>Refuerza el sistema inmune</div>
-<div class="card"><b>Melena de León</b><br>Apoyo neurológico</div>
-<div class="card"><b>Cordyceps</b><br>Energía celular</div>
-<div class="card"><b>Chaga</b><br>Antioxidante extremo</div>
-</div>
-</section>
+    <section class="emocional">
+        <div class="container">
+            <img src="https://via.placeholder.com/1200x400/F2EFE6/1C2B1F?text=Imagen+Dueño+y+Mascota" alt="Dueño y Mascota Felices y Sanos">
+            <h2>Más que mascotas, son familia.</h2>
+            <p>Cuida su salud para que estén más años contigo.</p>
+        </div>
+    </section>
 
-<section class="split">
-<img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?q=80&w=1974">
-<div>
-<h2>No es una mascota… es familia</h2>
-<p>Y cada decisión que tomas impacta su calidad de vida.</p>
-</div>
-</section>
+    <section class="confianza">
+        <div class="container">
+            <h2>VitaPet - Calidad y Confianza</h2>
+            <p>Nuestro suplemento se elabora con los más altos estándares de calidad, utilizando ingredientes 100% naturales y sin aditivos.</p>
+            <div class="reviews">
+                <h3>Testimonios de Clientes Satisfechos:</h3>
+                <blockquote>
+                    <p>"VitaPet ha transformado la salud de mi perro. ¡Está más activo y feliz que nunca!"</p>
+                    <cite>María García, Dueña de Toby</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"Mi gato sufría de alergias y VitaPet le ha ayudado mucho. ¡Se nota la diferencia!"</p>
+                    <cite>Pedro Sánchez, Dueño de Michi</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-<h2>Beneficios</h2>
+    <section class="cta-final">
+        <div class="container">
+            <h2>Dale a tu mascota la protección que merece</h2>
+            <a href="#" class="btn-cta">Comprar Ahora</a>
+        </div>
+    </section>
 
-<div class="grid">
-<div class="card">Sistema inmune fuerte</div>
-<div class="card">Mayor energía</div>
-<div class="card">Prevención de enfermedades</div>
-<div class="card">Mayor longevidad</div>
-</div>
-</section>
-
-<section class="section product">
-<h2>VitaPet 60g</h2>
-
-<img src="https://images.unsplash.com/photo-1612538498456-e861df91d4d0?q=80&w=1974">
-
-<p>Polvo liofilizado<br>Máxima biodisponibilidad<br>60 gramos</p>
-
-<a href="https://mpago.la/TU-LINK" target="_blank">
-<button class="btn">Comprar ahora</button>
-</a>
-
-<p><b>Stock limitado lanzamiento</b></p>
-</section>
-
-<section class="section">
-<h2>Testimonios</h2>
-
-<div class="grid">
-<div class="card">“Mi perro volvió a jugar como antes”</div>
-<div class="card">“Se nota el cambio en semanas”</div>
-<div class="card">“Producto premium real”</div>
-</div>
-</section>
-
-<footer>
-<p>Contacto: vitapetinmunomas@gmail.com</p>
-<p>© VitaPet 2026</p>
-</footer>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 VitaPet. Todos los derechos reservados.</p>
+            <ul>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="mailto:contacto@vitapet.cl">contacto@vitapet.cl</a></li>
+            </ul>
+        </div>
+    </footer
 </body>
 </html>
