@@ -5,26 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VitaPet | Inmunidad Premium</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
 <style>
+
 body{
 margin:0;
+background:#0b2e2b;
+color:#f4f4f4;
 font-family:'Inter',sans-serif;
-background:#0f2f2c;
-color:#f5f5f5;
-scroll-behavior:smooth;
 }
 
-h1,h2,h3{
+h1,h2{
 font-family:'Playfair Display',serif;
 }
 
 .hero{
 height:100vh;
 background:
-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
-url('https://images.unsplash.com/photo-1558788353-f76d92427f16?q=80&w=1974');
+linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.8)),
+url('https://images.unsplash.com/photo-1601758003122-68ec4a7b7a00?q=80&w=1974');
 background-size:cover;
 background-position:center;
 display:flex;
@@ -35,44 +35,44 @@ padding:20px;
 }
 
 .hero h1{
-font-size:52px;
-margin-bottom:20px;
+font-size:58px;
+max-width:800px;
 }
 
 .hero p{
 max-width:600px;
 margin:auto;
+opacity:0.9;
 }
 
 .btn{
 background:#d4af37;
 border:none;
-padding:16px 35px;
-border-radius:40px;
-cursor:pointer;
-margin-top:25px;
+padding:16px 40px;
+border-radius:50px;
 font-weight:600;
+cursor:pointer;
 transition:0.3s;
 }
 
 .btn:hover{
-transform:scale(1.08);
+transform:scale(1.1);
 }
 
 .section{
-padding:90px 20px;
+padding:100px 20px;
 text-align:center;
 }
 
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-margin-top:40px;
+gap:30px;
+margin-top:50px;
 }
 
 .card{
-background:#143d3a;
+background:#123f3c;
 padding:30px;
 border-radius:20px;
 transition:0.4s;
@@ -86,7 +86,8 @@ transform:translateY(-10px);
 display:flex;
 flex-wrap:wrap;
 align-items:center;
-gap:40px;
+gap:50px;
+padding:100px 20px;
 }
 
 .split img{
@@ -96,27 +97,16 @@ border-radius:20px;
 }
 
 .product img{
-width:280px;
-margin:30px auto;
-border-radius:15px;
-}
-
-.fade{
-opacity:0;
-transform:translateY(40px);
-transition:1s;
-}
-
-.visible{
-opacity:1;
-transform:translateY(0);
+width:300px;
+margin:30px 0;
 }
 
 footer{
-background:#0a1f1d;
+background:#081f1d;
 padding:40px;
 text-align:center;
 }
+
 </style>
 </head>
 
@@ -124,7 +114,7 @@ text-align:center;
 
 <section class="hero">
 <div>
-<h1>Protege su vida desde adentro</h1>
+<h1>Más vida. Más tiempo. Más momentos.</h1>
 <p>Suplemento inmunológico liofilizado con alta concentración de beta-glucanos para mascotas</p>
 
 <a href="https://mpago.la/TU-LINK" target="_blank">
@@ -135,81 +125,65 @@ text-align:center;
 </div>
 </section>
 
-<section class="section fade">
-<h2>Fórmula Científica Premium</h2>
-<p>Máxima concentración de beta-glucanos activos.<br>Liofilización avanzada para preservar nutrientes.</p>
+<section class="section">
+<h2>Ciencia que protege su vida</h2>
+<p>Formulado con hongos medicinales de alta pureza y concentración de beta-glucanos.</p>
 
 <div class="grid">
-<div class="card"><b>Reishi</b><br>Potente modulador del sistema inmune</div>
-<div class="card"><b>Melena de León</b><br>Apoyo neurológico y bienestar</div>
-<div class="card"><b>Cordyceps</b><br>Energía y vitalidad</div>
-<div class="card"><b>Chaga</b><br>Alto poder antioxidante</div>
+<div class="card"><b>Reishi</b><br>Refuerza el sistema inmune</div>
+<div class="card"><b>Melena de León</b><br>Apoyo neurológico</div>
+<div class="card"><b>Cordyceps</b><br>Energía celular</div>
+<div class="card"><b>Chaga</b><br>Antioxidante extremo</div>
 </div>
 </section>
 
-<section class="section split fade">
-<img src="https://images.unsplash.com/photo-1601758003122-68ec4a7b7a00?q=80&w=1974">
+<section class="split">
+<img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?q=80&w=1974">
 <div>
-<h2>No es solo una mascota… es familia</h2>
-<p>Y su bienestar depende de lo que haces hoy.</p>
+<h2>No es una mascota… es familia</h2>
+<p>Y cada decisión que tomas impacta su calidad de vida.</p>
 </div>
 </section>
 
-<section class="section fade">
+<section class="section">
 <h2>Beneficios</h2>
+
 <div class="grid">
-<div class="card">Más energía</div>
-<div class="card">Defensas fortalecidas</div>
-<div class="card">Menos enfermedades</div>
+<div class="card">Sistema inmune fuerte</div>
+<div class="card">Mayor energía</div>
+<div class="card">Prevención de enfermedades</div>
 <div class="card">Mayor longevidad</div>
 </div>
 </section>
 
-<section class="section product fade">
+<section class="section product">
 <h2>VitaPet 60g</h2>
 
 <img src="https://images.unsplash.com/photo-1612538498456-e861df91d4d0?q=80&w=1974">
 
-<p>Suplemento en polvo premium<br>60 gramos<br>Liofilizado para máxima biodisponibilidad</p>
+<p>Polvo liofilizado<br>Máxima biodisponibilidad<br>60 gramos</p>
 
 <a href="https://mpago.la/TU-LINK" target="_blank">
 <button class="btn">Comprar ahora</button>
 </a>
+
+<p><b>Stock limitado lanzamiento</b></p>
 </section>
 
-<section class="section fade">
+<section class="section">
 <h2>Testimonios</h2>
+
 <div class="grid">
-<div class="card">“Mi perro recuperó su energía en semanas”</div>
-<div class="card">“Se nota el cambio en su vitalidad”</div>
-<div class="card">“Producto realmente premium”</div>
+<div class="card">“Mi perro volvió a jugar como antes”</div>
+<div class="card">“Se nota el cambio en semanas”</div>
+<div class="card">“Producto premium real”</div>
 </div>
-</section>
-
-<section class="section fade">
-<h2>Dale más años de vida a quien te ama</h2>
-
-<a href="https://mpago.la/TU-LINK" target="_blank">
-<button class="btn">Proteger a mi mascota</button>
-</a>
 </section>
 
 <footer>
 <p>Contacto: vitapetinmunomas@gmail.com</p>
 <p>© VitaPet 2026</p>
 </footer>
-
-<script>
-const faders=document.querySelectorAll('.fade');
-window.addEventListener('scroll',()=>{
-faders.forEach(el=>{
-const top=el.getBoundingClientRect().top;
-if(top<window.innerHeight-100){
-el.classList.add('visible');
-}
-});
-});
-</script>
 
 </body>
 </html>
